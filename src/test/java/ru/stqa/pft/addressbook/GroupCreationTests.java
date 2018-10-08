@@ -20,7 +20,7 @@ public class GroupCreationTests {
   }
 
   @Test
-  public void testUntitledTestCase() throws Exception {
+  public void GroupCreationTests() throws Exception {
     driver.get("http://localhost:8080/addressbook/group.php");
     driver.findElement(By.name("user")).click();
     driver.findElement(By.name("user")).clear();
