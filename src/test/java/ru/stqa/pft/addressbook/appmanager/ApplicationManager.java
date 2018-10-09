@@ -1,6 +1,5 @@
 package ru.stqa.pft.addressbook.appmanager;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -22,8 +21,6 @@ public class ApplicationManager {
         sessionHelper = new SessionHelper(driver);
         sessionHelper.login("admin", "secret");
     }
-
-
 
     public void stop() {
         driver.quit();
